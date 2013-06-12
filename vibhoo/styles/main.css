@@ -1,3 +1,4 @@
+
 body
 {
     margin-left: 4px;
@@ -14,7 +15,48 @@ body
     color: red;
 }
 
-#map_canvas
+.content_div {
+    display: none;
+}
+.content_div:first-child {
+    display: block;
+}
+
+#cc,#nb{
+    display:none;
+}
+
+#dc,#nb {
+    display:none;
+}
+
+#dc, #cc {
+    display:none;
+}
+
+
+#success, #fail {
+    display:none;
+}
+
+#all,#fail
 {
-    text-align:center;
+    display:none;
+}
+
+#all,#success{
+    display:none;
+}
+
+#faq,#t_c{
+    display:none;
+}
+
+#he,#t_c
+{
+    display:none;
+}
+
+#he,#faq{
+    display:none;
 }
